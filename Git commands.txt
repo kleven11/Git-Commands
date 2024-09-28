@@ -13,3 +13,18 @@ git branch # to check the current branch
 git checkout <branch name> # to navigate into a branch
 git checkout -b <branch name> # to create a new branch and switches into in
 git branch -d <branch name> # to delete a branch
+git diff <branch name to check differences with> #compares commits,branches, files, etc
+git pull origin main # used to fetch content from a remote repo and immediately update the local repo to match the content
+git merge <other branch name> 
+git log # to check all our commits, commit history
+Undoing changes --> 
+Case 1: staged changes(-add)
+    git reset <file name> 
+case2: commited changes (-commit)
+    git reset HEAD~1 # to undo one commit
+case 3: To undo multiple commits
+    git reset <enter commit hash> # we find the commit hash from the log
+    git reset --hard <hash link> # --hard removes the changes even from the code
+Fork -->A new repo that shares code and visiblity setting with the original "upstream" repo.
+        Now you can have the code in our own account. You can edit it in our account.
+        then we can send pull requests to the owner after adding committs. so the owner can decide whether to merge those changes into the original file or not.
