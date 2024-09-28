@@ -1,0 +1,15 @@
+1. git clone <repo url>
+2. git status
+3. git add <file name>
+4. git add . #adds all untracked files
+5. git commit -m "message to be added"
+6. git push origin main
+git init #Initializes a git repo
+git remote add origin <link> 
+git remove -v # to verify remote
+git branch -M <new name> #to rename any branch
+git push -u origin main # here (-u) is used so that from the next push, we don't need to mention origin main 
+git branch # to check the current branch
+git checkout <branch name> # to navigate into a branch
+git checkout -b <branch name> # to create a new branch and switches into in
+git branch -d <branch name> # to delete a branch
