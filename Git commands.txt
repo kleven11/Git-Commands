@@ -1,3 +1,4 @@
+0. git --version # to check the version
 1. git clone <repo url>
 2. git status
 3. git add <file name>
