@@ -1,0 +1,13 @@
+git –version # Shows the current version of your Git
+
+Git Configuration & Setup
+Here are Git configuration and setup commands:
+
+Commands 
+
+Description
+
+git config –global user.name “Your Name”	Set your username globally.
+git config –global user.email “youremail@example.com”	Set your email globally.
+git config –global color.ui auto –	Set to display colored output in the terminal
+git help	Display the main help documentation, showing a list of commonly used Git commands.
