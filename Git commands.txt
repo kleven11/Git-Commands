@@ -1,11 +1,14 @@
-0. git --version # to check the version
-1. git clone <repo url>
-2. git status
-3. git add <file name>
-4. git add . #adds all untracked files
-5. git commit -m "message to be added"
-6. git push origin main
+git --version # to check the version
+git clone <repo url> # this Clones a repository from a remote server to your local machine.
+git status # Shows the current state of your repository, including tracked and untracked files, modified files, and branch information.
+git add <file name> # Adds a specific file to the staging area.
+git add . #adds all untracked files
+git commit -m "message to be added"
+git push origin main
+git help  #Display the main help documentation, showing a list of commonly used Git commands.
 git init #Initializes a git repo
+git init <directory> # Creates a new Git repository in the specified directory.
+git clone –branch <branch_name> <repository_url> # this Clones a repository from a remote server to your local machine.
 git remote add origin <link> 
 git remove -v # to verify remote
 git branch -M <new name> #to rename any branch
@@ -14,6 +17,7 @@ git branch # to check the current branch
 git checkout <branch name> # to navigate into a branch
 git checkout -b <branch name> # to create a new branch and switches into in
 git branch -d <branch name> # to delete a branch
+git diff # Shows the changes between the working directory and the staging area (index).
 git diff <branch name to check differences with> #compares commits,branches, files, etc
 git pull origin main # used to fetch content from a remote repo and immediately update the local repo to match the content
 git merge <other branch name> 
