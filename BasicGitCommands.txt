@@ -33,3 +33,9 @@ case 3: To undo multiple commits
 Fork -->A new repo that shares code and visiblity setting with the original "upstream" repo.
         Now you can have the code in our own account. You can edit it in our account.
         then we can send pull requests to the owner after adding committs. so the owner can decide whether to merge those changes into the original file or not.
+git stash # temporarily saves your uncommitted changes so you can switch branches or work on something else without committing incomplete work.
+#saves your changes in a stash stack
+#Reverts your working directory to the last commit
+git stash pop # to bring the changes back 
+git stash list # for viewing stash stack
+git stash apply # restores the changes but keeps the stash saved.
