@@ -39,3 +39,5 @@ git stash # temporarily saves your uncommitted changes so you can switch branche
 git stash pop # to bring the changes back 
 git stash list # for viewing stash stack
 git stash apply # restores the changes but keeps the stash saved.
+
+.gitignore file -> tells git which files not to track.
